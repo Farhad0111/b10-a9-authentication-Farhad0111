@@ -1,0 +1,65 @@
+/*src/components/Footer.css*/
+/*.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer .contact-info {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .social-links a {
+    color: #61dafb;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .copyright {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  */
+  /* Footer Styles */
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer .contact-info {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .social-links {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center align the icons */
+    gap: 20px; /* Add space between the icons */
+    margin-bottom: 1rem; /* Optional: space between the icons and the copyright */
+  }
+  
+  .footer .social-links a {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+  
+  .footer .social-links a:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .footer .copyright {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
